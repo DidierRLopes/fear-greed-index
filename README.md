@@ -2,7 +2,9 @@
 
 ## About the project
 
-This module has been created with the intention of adding this data to the economy menu of [GamestonkTerminal](https://github.com/GamestonkTerminal/GamestonkTerminal).
+This module scrapes https://money.cnn.com/data/fear-and-greed/ to extract CNN Fear and Greed Index.
+
+It has been created with the intention of adding this data to the economy menu of [GamestonkTerminal](https://github.com/GamestonkTerminal/GamestonkTerminal).
 
 ## Usage
 
