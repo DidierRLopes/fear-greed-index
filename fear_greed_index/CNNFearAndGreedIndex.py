@@ -155,7 +155,18 @@ class CNNFearAndGreedIndex:
         return complete_report
 
     def plot_all_charts(self, fig: plt.figure):
-        """Plot all indicators and index charts"""
+        """Plot all indicators and index charts
+
+        Parameters
+        ----------
+        plt.figure
+            matplotlib figure to plot all charts
+
+        Returns
+        -------
+        plt.figure
+            matplotlib figure ready to be plot
+        """
         for i, indicator in enumerate(self.all_indicators):
             ax = fig.add_subplot(3, 3, i + 1)
             ax.set_axis_off()
