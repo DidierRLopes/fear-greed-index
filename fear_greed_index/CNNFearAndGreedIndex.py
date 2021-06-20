@@ -7,7 +7,29 @@ from fear_greed_index.FearAndGreedIndicator import FearAndGreedIndicator
 
 
 class CNNFearAndGreedIndex:
-    """CNN Fear and Greed Index"""
+    """CNN Fear and Greed Index
+
+    Attributes
+    ----------
+    junk_bond_demand : FearAndGreedIndicator
+        Junk Bond Demand indicator
+    market_volatility : FearAndGreedIndicator
+        Market Volatility indicator
+    put_and_call_options = FearAndGreedIndicator
+        Put and Call Options indicator
+    market_momentum = FearAndGreedIndicator
+        Market Momentum indicator
+    stock_price_strength = FearAndGreedIndicator
+        Stock Price Strength indicator
+    stock_price_breadth = FearAndGreedIndicator
+        Stock Price Breadth indicator
+    safe_heaven_demand = FearAndGreedIndicator
+        Safe Heaven Demand indicator
+    index_summary = str
+        Summary of the current sentiment index
+    index_chat = "N/A"
+        Chart of the historical sentiment index
+    """
 
     indicator_chart_type = {
         "Junk Bond Demand": "IGHYPtile",

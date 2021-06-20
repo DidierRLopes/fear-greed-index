@@ -3,7 +3,27 @@ __docformat__ = "numpy"
 
 
 class FearAndGreedIndicator:
-    """Fear and Greed Indicator"""
+    """Fear and Greed Indicator
+
+    Attributes
+    ----------
+    type_indicator : str
+        Indicator type, from this list: Junk Bond Demand, Market Volatility,
+        Market Volatility, Put and Call Options, Market Momentum,
+        Stock Price Strength, Stock Price Breadth, Safe Heaven Demand
+    sentiment : str
+        Sentiment associated with this indicator
+    summary : str
+        Summary related with sentiment associated with this indicator
+    last_sentiment : str
+        Last sentiment of this indicator before being updated
+    self.last_changed : str
+        Datetime of the previous time the sentiment was updated
+    self.update_on : str
+        Datetime associated with most recent sentiment
+    self.chart : Image
+        Chart associated with this indicator
+    """
 
     def __init__(self, type_indicator: str):
         """Constructor
@@ -13,7 +33,7 @@ class FearAndGreedIndicator:
         type_indicator : str
             Between the 7 Indicators: Junk Bond Demand, Market Volatility, Market Volatility,
             Put and Call Options, Market Momentum, Stock Price Strength, Stock Price Breadth,
-            Safe Heaven Demand"
+            Safe Heaven Demand
         """
         self.type_indicator = type_indicator
         self.sentiment = "N/A"
