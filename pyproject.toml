@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fear-greed-index"
+version = "0.1.0"
+description = "CNN Fear and Greed Index"
+authors = ["Didier Rodrigues Lopes"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+bs4 = "^0.0.1"
+matplotlib = "^3.4.2"
+Pillow = "^8.2.0"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
