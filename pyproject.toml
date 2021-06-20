@@ -2,8 +2,10 @@
 name = "fear-greed-index"
 version = "0.1.0"
 description = "CNN Fear and Greed Index"
-authors = ["Didier Rodrigues Lopes"]
+authors = ["Didier Rodrigues Lopes <dro.lopes@campus.fct.unl.pt>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/DidierRLopes/fear-greed-index"
 
 [tool.poetry.dependencies]
 python = "^3.8"
