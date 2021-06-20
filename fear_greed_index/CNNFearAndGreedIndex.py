@@ -15,19 +15,19 @@ class CNNFearAndGreedIndex:
         Junk Bond Demand indicator
     market_volatility : FearAndGreedIndicator
         Market Volatility indicator
-    put_and_call_options = FearAndGreedIndicator
+    put_and_call_options : FearAndGreedIndicator
         Put and Call Options indicator
-    market_momentum = FearAndGreedIndicator
+    market_momentum : FearAndGreedIndicator
         Market Momentum indicator
-    stock_price_strength = FearAndGreedIndicator
+    stock_price_strength : FearAndGreedIndicator
         Stock Price Strength indicator
-    stock_price_breadth = FearAndGreedIndicator
+    stock_price_breadth : FearAndGreedIndicator
         Stock Price Breadth indicator
-    safe_heaven_demand = FearAndGreedIndicator
+    safe_heaven_demand : FearAndGreedIndicator
         Safe Heaven Demand indicator
-    index_summary = str
+    index_summary : str
         Summary of the current sentiment index
-    index_chat = "N/A"
+    index_chat : "N/A"
         Chart of the historical sentiment index
     """
 
