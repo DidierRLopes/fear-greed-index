@@ -12,6 +12,9 @@ bs4 = "^0.0.1"
 matplotlib = "^3.4.2"
 Pillow = "^8.2.0"
 lxml = "^4.6.3"
+Sphinx = "^4.0.2"
+sphinx-rtd-theme = "^0.5.2"
+m2r2 = "^0.2.7"
 
 [tool.poetry.dev-dependencies]
 
