@@ -100,5 +100,5 @@ class FearAndGreedIndicator:
         report = f"{self.type_indicator}: {self.sentiment}"
         report += f"{(100-len(report))*' '}[{self.update_on}]\n"
         report += f"   {self.summary}\n"
-        report += f"   {self.last_changed}\n"
+        report += f"   ({self.last_changed})\n"
         return report
