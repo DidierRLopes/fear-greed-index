@@ -10,7 +10,7 @@ It has been created with the intention of adding this data to the economy menu o
 
 By doing:
 ```python
-from fear_greed_index.CNNFearAndGreedIndex import CNNFearAndGreedIndex
+from fear_greed_index import CNNFearAndGreedIndex
 
 cnn_fg = CNNFearAndGreedIndex()
 
